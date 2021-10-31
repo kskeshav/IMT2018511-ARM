@@ -9,7 +9,7 @@ __main  FUNCTION
 	; for byte addressable memory next successive location differ by 4
 
 	MOV R0,#0x20000000
-	MOV R8, #03
+	MOV R8, #04
 	MOV R9,#0x00000000	;stores the result.
 	ADD R1, R0, #0x00000004 
 	ADD R2, R1, #0x00000004
